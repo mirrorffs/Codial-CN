@@ -1,0 +1,21 @@
+
+
+    <link rel="stylesheet" href="/css/footer.css">
+<div id="main-footer">
+    <div>
+    <h3>@Avi Gupta. All Rights Reserved</h3>
+    </div>
+    <div>
+<ul type="none" id="header-list">
+    <li class="list-item">
+        <a href="/">Home</a>
+    </li class="list-item">
+    <% if(locals.user){%>
+    <li class="list-item">
+        <a href="/users/profile/<%= user.id %>">Profile</a>
+    </li>
+    <%}%>
+</ul>
+</div>
+
+</div>

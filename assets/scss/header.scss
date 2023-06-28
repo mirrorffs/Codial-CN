@@ -1,0 +1,41 @@
+#main-header{
+    height: 5%;
+    width: 100%;
+    background-color: #17A9FD ;
+    color: white;
+    display: flex;
+    justify-content: space-between; 
+    font-family: sans-serif;
+    
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    li{
+        margin-top: -0.6rem;
+        padding: 0.5rem;
+        
+    }}
+    h1{
+        margin-top: -0.3rem;
+        padding: 0.5rem;
+    }
+    a{
+        font-weight: bolder;
+    }
+    a:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+      }
+}
+
+
+

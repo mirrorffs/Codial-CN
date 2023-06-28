@@ -1,0 +1,16 @@
+#main-footer {
+  height: 10%;
+  width: 100%;
+  background-color: #3b5998;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  font-family: sans-serif; }
+  #main-footer ul {
+    display: flex;
+    flex-direction: column; }
+    #main-footer ul li {
+      margin-top: -0.6rem;
+      padding: 0.8rem; }
+  #main-footer h3 {
+    padding: 1rem; }
