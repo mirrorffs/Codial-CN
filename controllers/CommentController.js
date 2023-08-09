@@ -49,12 +49,12 @@ module.exports.createComment=async function(req,res){
 
             // Working function to send email on every comment
 
-            // let job = queue.create('comment-email',comment).save(function(error){
-            //     if(error){console.log('error in queue create', error)}
-            //     else{console.log('job enqueued',job.id)}
+            let job = queue.create('comment-email',comment).save(function(error){
+                if(error){console.log('error in queue create', error)}
+                else{console.log('job enqueued',job.id)}
                 
-            // })
-            // commentMailer.newComment(comment)
+            })
+            commentMailer.newComment(comment)
             if(req.xhr){
                 
                 return res.status(200).json({
